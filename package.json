@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/ierceg/oh-lodash/issues"
   },
-  "homepage": "https://github.com/ierceg/oh-lodash#readme"
+  "homepage": "https://github.com/ierceg/oh-lodash#readme",
+  "peerDependencies": {
+    "lodash": "^4.17.4"
+  }
 }
