@@ -5,6 +5,10 @@ const _ = require('lodash');
 
 _.mixin({
     sortWithComparator(array, comparatorFn) {
+        if (!_.isArray(array)) {
+            return array;
+        }
+
         return array.sort(comparatorFn);
     }
 });
