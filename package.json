@@ -1,6 +1,6 @@
 {
   "name": "oh-lodash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "More mixins for lodash",
   "main": "index.js",
   "scripts": {
